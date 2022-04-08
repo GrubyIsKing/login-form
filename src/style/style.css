@@ -37,13 +37,13 @@ h1{
 }
 
 .box_main{
-    height: 400px;
+    height: 350px;
     width: 400px;
     background-color: rgb(238, 232, 232);
-    padding: 20px;
+    padding: 40px;
     border-radius: 8px;
-    border: 2px solid rgb(238, 232, 232);
-    box-shadow: 0 0 10px 1px rgb(238, 232, 232);
+    border: 2px solid black;
+    box-shadow: 0 0 10px 1px black;
 }
 
 form{
@@ -57,6 +57,7 @@ form{
     width: 100%;
     justify-content: center;
     margin-top: 10px;
+    font-size: 20px;
 }
 
 a{
@@ -65,6 +66,28 @@ a{
     color: rgb(27, 27, 179);
 }
 
+.box_center{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    transform: translateY(-120px);
+}
+
+#box_wrapper{
+    margin-top: 50px;
+}
+
+.circle{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: rgb(184, 184, 255);
+    border: 5px solid black;
+    box-shadow: 0 0 10px 1px black;
+    position: absolute;
+    background-image: url(./assets/download-removebg-preview.png);
+    background-size: cover;
+}
 
 a:hover{
     text-decoration: underline;
@@ -78,7 +101,6 @@ a:hover{
 }
 
 input[type = submit], input[type = button]{
-    width: 100px;
     padding: 5px;
     color: white;
     background-color: black;
@@ -86,11 +108,15 @@ input[type = submit], input[type = button]{
     border-radius: 8px;
     border: 2px solid black;
     margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 300px;
+    height: 50px;
 }
 
 label{
     transform: translateY(-50px);
-    transition: 0.5s;
+    transition: 0.3s;
     font-size: 20px;
 }
 
