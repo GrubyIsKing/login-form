@@ -8,6 +8,7 @@ body{
     height: 100%;
     background-image: url(./assets/london.jpg);
     background-size: cover;
+    overflow: hidden;
 }
 
 .main{
@@ -133,4 +134,18 @@ input[type = text], input[type = password]{
 
 .box input[type = text]:focus ~ label, .box input[type = password]:focus ~ label{
     transform: translateY(-60px);
+}
+
+
+@media all and (max-width: 400px){
+    .box_main{
+        width: 250px;
+    }
+    .box{
+        width: 100%;
+    }
+    form{
+        display: flex;
+        align-items: center;
+    }
 }
