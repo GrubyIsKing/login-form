@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -9,6 +11,7 @@ body{
     background-image: url(./assets/london.jpg);
     background-size: cover;
     overflow: hidden;
+    font-family: 'Poppins', sans-serif;
 }
 
 .main{
@@ -143,6 +146,9 @@ input[type = text], input[type = password]{
     }
     .box{
         width: 100%;
+    }
+    .boxexe{
+        width: 310px;
     }
     form{
         display: flex;
